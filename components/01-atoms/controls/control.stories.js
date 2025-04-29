@@ -1,4 +1,4 @@
-import tokens from '@yalesites-org/tokens/build/json/tokens.json';
+import tokens from '@namallium/tokens/build/json/tokens.json';
 
 import ctaTwig from './cta/yds-cta.twig';
 import linkTwig from './text-link/yds-text-link.twig';

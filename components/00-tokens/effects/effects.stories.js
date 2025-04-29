@@ -1,4 +1,4 @@
-import tokens from '@yalesites-org/tokens/build/json/tokens.json';
+import tokens from '@namallium/tokens/build/json/tokens.json';
 
 import shadowsTwig from './shadows.twig';
 import radiiTwig from './radii.twig';

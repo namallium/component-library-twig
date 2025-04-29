@@ -1,4 +1,4 @@
-import tokens from '@yalesites-org/tokens/build/json/tokens.json';
+import tokens from '@namallium/tokens/build/json/tokens.json';
 import siteSectionTwig from './yds-site-in-this-section.twig';
 
 import secondaryNavData from '../menu/secondary-nav/secondary-nav.yml';

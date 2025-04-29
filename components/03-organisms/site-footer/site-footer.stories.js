@@ -1,4 +1,4 @@
-import tokens from '@yalesites-org/tokens/build/json/tokens.json';
+import tokens from '@namallium/tokens/build/json/tokens.json';
 
 import siteFooterTwig from './yds-site-footer.twig';
 import siteFooterExamples from './_site-footer--examples.twig';

@@ -1,4 +1,4 @@
-import tokens from '@yalesites-org/tokens/build/json/tokens.json';
+import tokens from '@namallium/tokens/build/json/tokens.json';
 
 // facts_and_figures__group twig
 import factsAndFiguresGroupTwig from './yds-facts-and-figures-group.twig';

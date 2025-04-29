@@ -1,4 +1,4 @@
-import tokens from '@yalesites-org/tokens/build/json/tokens.json';
+import tokens from '@namallium/tokens/build/json/tokens.json';
 import wrappedCalloutTwig from './yds-wrapped-callout.twig';
 import textFieldTwig from '../text/yds-text-field.twig';
 import wrappedCalloutData from './wrapped-callout.yml';

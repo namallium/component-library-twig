@@ -1,4 +1,4 @@
-import tokens from '@yalesites-org/tokens/build/json/tokens.json';
+import tokens from '@namallium/tokens/build/json/tokens.json';
 import getGlobalThemes from './color-global-themes';
 
 import colorsTwig from './colors.twig';

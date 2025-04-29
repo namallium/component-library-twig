@@ -1,4 +1,4 @@
-import tokens from '@yalesites-org/tokens/build/json/tokens.json';
+import tokens from '@namallium/tokens/build/json/tokens.json';
 
 // Twig templates
 import taxonomyDisplayTwig from './yds-taxonomy-display.twig';

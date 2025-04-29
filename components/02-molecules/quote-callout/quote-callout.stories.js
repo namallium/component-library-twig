@@ -1,4 +1,4 @@
-import tokens from '@yalesites-org/tokens/build/json/tokens.json';
+import tokens from '@namallium/tokens/build/json/tokens.json';
 import quoteCalloutTwig from './yds-quote-callout.twig';
 import quoteCalloutData from './quote-callout.yml';
 // Image atom component - generic images for demo

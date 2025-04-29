@@ -1,4 +1,4 @@
-import tokens from '@yalesites-org/tokens/build/json/tokens.json';
+import tokens from '@namallium/tokens/build/json/tokens.json';
 // get global themes as `label` : `key` values to pass into options as array.
 import getGlobalThemes from '../../00-tokens/colors/color-global-themes';
 

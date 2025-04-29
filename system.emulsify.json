@@ -1,7 +1,7 @@
 {
   "name": "component-library-twig",
-  "homepage": "https://github.com/yalesites-org/component-library-twig",
-  "repository": "https://github.com/yalesites-org/component-library-twig.git",
+  "homepage": "https://github.com/namallium/component-library-twig",
+  "repository": "https://github.com/namallium/component-library-twig.git",
   "structure": [
     {
       "name": "tokens",

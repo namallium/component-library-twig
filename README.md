@@ -6,7 +6,7 @@ All YaleSites projects have access to components in the YaleSites component libr
 
 <details><summary>Prerequisites</summary>
 
-Each environment that needs to pull @yalesites-org packages from GitHub needs to be authenticated using a "Personal Access Token". This only needs to be done once per-environment.
+Each environment that needs to pull @namallium packages from GitHub needs to be authenticated using a "Personal Access Token". This only needs to be done once per-environment.
 
 - Go to `https://github.com/settings/tokens/new`
   - In the "Note" field add something like "YaleSites GitHub Packages"
@@ -26,7 +26,7 @@ Each environment that needs to pull @yalesites-org packages from GitHub needs to
 
 If you want to work directly on the component library locally, you can clone this repo and install the dependencies as described below.
 
-1. Clone the repository `git clone git@github.com:yalesites-org/component-library-twig.git`
+1. Clone the repository `git clone git@github.com:namallium/component-library-twig.git`
 2. Change directories into the repo `cd component-library-twig`
 3. Verify you're using the correct version of node `nvm use`
 4. Install dependencies `npm install`
@@ -35,18 +35,18 @@ If you want to work directly on the component library locally, you can clone thi
 
 ### Installing the package in another project
 
-There must be a `.npmrc` file in the project root that tells npm to get `@yalesites-org` packages from GitHub rather than npm.
+There must be a `.npmrc` file in the project root that tells npm to get `@namallium` packages from GitHub rather than npm.
 
 - Create a `.npmrc` file in your project root (or modify an existing one) and add the following:
 
 ```bash
-@yalesites-org:registry=https://npm.pkg.github.com
+@namallium:registry=https://npm.pkg.github.com
 ```
 
 Then you can install the package like any other npm dependency.
 
 ```bash
-npm install @yalesites-org/component-library-twig
+npm install @namallium/component-library-twig
 ```
 
 ## Releases
@@ -57,7 +57,7 @@ This is an entirely automated process, so whether changes are pushed directly to
 
 ## Live Component Library
 
-You can view the latest version of the component library at any time by visiting the [Deployed Storybook](https://yalesites-org.github.io/component-library-twig). All new commits to the `main` branch trigger a rebuild and deploy of the component library, so it will always be up-to-date with the latest released code.
+You can view the latest version of the component library at any time by visiting the [Deployed Storybook](https://namallium.github.io/component-library-twig). All new commits to the `main` branch trigger a rebuild and deploy of the component library, so it will always be up-to-date with the latest released code.
 
 ## Development Component Libraries
 
