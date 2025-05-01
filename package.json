@@ -74,7 +74,7 @@
   },
   "dependencies": {
     "@drupal/once": "^1.0.1",
-    "@namallium/tokens": "^1.31.0",
+    "@namallium/tokens": "^1.35.2",
     "@storybook/storybook-deployer": "^2.8.16",
     "add-attributes-twig-extension": "^0.1.0",
     "bem-twig-extension": "^0.1.1",
